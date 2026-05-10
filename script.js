@@ -4,7 +4,7 @@ const eventDetails = {
   title: "Hana's Bride to Be Party",
   couple: "",
   intro:
-    "Një pasdite e ëmbël, verore dhe plot kujtime të bukura.",
+    "Një pasdite e ëmbël me plot kujtime të bukura.",
   message:
     "Kodi i veshjes është diçka baby pink verore. Sillni energjinë më të mirë, buzëqeshjet e bukura dhe bëhuni gati për një festë të paharrueshme.",
   footer: "Mezi presim të festojmë me ju!!!!!!",

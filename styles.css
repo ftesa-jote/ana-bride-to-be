@@ -273,6 +273,12 @@ h1 {
   font-size: clamp(4rem, 12vw, 9.5rem);
 }
 
+.hero h1 {
+  font-family: "Great Vibes", "Cormorant Garamond", serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
 h1 small {
   display: block;
   margin-top: 18px;
@@ -764,13 +770,13 @@ footer img {
 
   .hero::before {
     position: absolute;
-    inset: 50vw -20px 0;
+    inset: 56vw -24px 0;
     z-index: 0;
     display: block;
-    background: url("assets/new_new.png") center bottom / cover;
+    background: url("assets/dress_and_heels_cartoon.png") center / cover;
     content: "";
-    filter: blur(24px);
-    opacity: 0.16;
+    filter: blur(26px);
+    opacity: 0.2;
     transform: scale(1.05);
   }
 
@@ -779,7 +785,8 @@ footer img {
   }
 
   h1 {
-    font-size: clamp(3.25rem, 17vw, 5rem);
+    font-size: clamp(4.1rem, 20vw, 6rem);
+    line-height: 0.86;
   }
 
   .hero-copy {
