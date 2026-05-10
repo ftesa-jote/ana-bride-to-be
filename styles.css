@@ -394,6 +394,7 @@ section {
   gap: clamp(28px, 5vw, 68px);
   align-items: center;
   max-width: 1320px;
+  padding-bottom: clamp(42px, 6vw, 76px);
   overflow: hidden;
   background:
     linear-gradient(90deg, rgba(255, 246, 249, 0.94), rgba(255, 246, 249, 0.78)),
@@ -832,6 +833,10 @@ footer img {
 
   .location-section {
     grid-template-columns: 1fr;
+  }
+
+  .intro-section {
+    padding-bottom: 42px;
   }
 
   .intro-gallery {
