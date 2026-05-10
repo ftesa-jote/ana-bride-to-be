@@ -21,22 +21,27 @@ const eventDetails = {
     {
       title: "Ushqim",
       description: "Shije të lehta dhe të bukura për ta nisur festën ëmbël.",
+      image: "assets/bride-to-be-hero.png",
     },
     {
       title: "Pije",
       description: "Pije freskuese dhe dolli për Hanën.",
+      image: "assets/champaign_glasses.png",
     },
     {
       title: "Foto",
       description: "Momente të bukura për t'i ruajtur përgjithmonë.",
+      image: "assets/group_girls.png",
     },
     {
       title: "Muzikë",
       description: "Këngë dhe atmosferë për një pasdite plot energji.",
+      image: "assets/hana_with_dress.png",
     },
     {
       title: "Vallëzim",
       description: "Festojmë, kërcejmë dhe krijojmë kujtime bashkë.",
+      image: "assets/hana.png",
     },
   ],
 };
@@ -56,6 +61,7 @@ eventDetails.activities.forEach((item) => {
   const card = document.createElement("article");
   card.className = "activity-card";
   card.innerHTML = `
+      <img src="${item.image}" alt="" aria-hidden="true" />
       <h3>${item.title}</h3>
       <p>${item.description}</p>
   `;
