@@ -357,11 +357,11 @@ h2 {
   display: grid;
   gap: 5px;
   min-width: min(280px, calc(100vw - 36px));
-  border: 1px solid rgba(255, 216, 228, 0.8);
+  border: 1px solid rgba(246, 160, 190, 0.84);
   border-radius: 8px;
   padding: 18px 20px;
-  background: rgba(255, 216, 228, 0.28);
-  box-shadow: 0 12px 30px rgba(196, 97, 127, 0.14);
+  background: rgba(246, 160, 190, 0.36);
+  box-shadow: 0 12px 30px rgba(196, 97, 127, 0.18);
   backdrop-filter: blur(18px);
 }
 
@@ -772,9 +772,9 @@ footer img {
     padding-top: 72vw;
     padding-bottom: 190px;
     background:
-      linear-gradient(180deg, rgba(255, 246, 249, 0) 0 54vw, rgba(248, 157, 188, 0.42) 63vw, rgba(247, 177, 202, 0.82) 82%, rgba(248, 194, 211, 0.96)),
+      linear-gradient(180deg, rgba(255, 246, 249, 0) 0 54vw, rgba(248, 157, 188, 0.42) 63vw, rgba(247, 177, 202, 0.82) 82%, rgba(247, 187, 207, 0.96)),
       url("assets/new_new.png") top center / 100% auto no-repeat,
-      linear-gradient(180deg, #f4a5c1 0 62vw, #f8c4d7 100%);
+      linear-gradient(180deg, #f4a5c1 0 62vw, #f7bbcf 100%);
   }
 
   .hero::before {
@@ -794,7 +794,7 @@ footer img {
   }
 
   h1 {
-    font-size: clamp(4.1rem, 20vw, 6rem);
+    font-size: clamp(3.45rem, 16.2vw, 4.85rem);
     line-height: 0.86;
   }
 
@@ -844,7 +844,7 @@ footer img {
   }
 
   .intro-section {
-    padding-bottom: 42px;
+    padding-bottom: 26px;
   }
 
   .intro-gallery {
@@ -852,12 +852,12 @@ footer img {
     max-width: 380px;
     justify-self: center;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
   }
 
   .gallery-card.tall {
-    grid-row: 1 / span 2;
+    grid-row: auto;
   }
 
   .gallery-card,
