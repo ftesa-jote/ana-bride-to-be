@@ -399,7 +399,7 @@ section {
   overflow: hidden;
   background:
     linear-gradient(90deg, rgba(255, 246, 249, 0.94), rgba(255, 246, 249, 0.78)),
-    url("assets/bride-to-be-hero.png") center / cover;
+    url("assets/bride-to-be-hero.png") 58% center / cover no-repeat;
 }
 
 .intro-copy {
@@ -630,7 +630,9 @@ section {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 480px);
   gap: clamp(28px, 6vw, 80px);
   align-items: center;
-  background: #fff;
+  background:
+    linear-gradient(120deg, rgba(255, 246, 249, 0.9), rgba(255, 246, 249, 0.72)),
+    url("assets/final-sections-bg.png") center / cover;
 }
 
 .location-copy .button.primary {
@@ -704,6 +706,9 @@ section {
 footer {
   padding: 44px 18px 34px;
   color: var(--muted);
+  background:
+    linear-gradient(180deg, rgba(255, 246, 249, 0.76), rgba(255, 246, 249, 0.94)),
+    url("assets/final-sections-bg.png") center bottom / cover;
   text-align: center;
 }
 
