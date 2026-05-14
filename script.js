@@ -12,7 +12,7 @@ const eventDetails = {
   weddingDate: "2026-06-11T16:00:00+02:00",
   weekday: "E enjte",
   displayDate: "11 qershor",
-  displayTime: "Nga ora 16:00",
+  displayTime: "Nga ora 17:00",
   venue: "Villa Marbella",
   address: "Hapeni lokacionin në Google Maps",
   mapTitle: "Villa Marbella",
