@@ -8,10 +8,10 @@ const eventDetails = {
   message:
     "Kodi i veshjes është diçka baby pink verore. Sillni energjinë më të mirë, buzëqeshjet e bukura dhe bëhuni gati për një festë të paharrueshme.",
   footer: "Mezi presim të festojmë me ju!!!!!!",
-  partyDate: "2026-06-11T16:00:00+02:00",
-  weddingDate: "2026-06-11T16:00:00+02:00",
+  partyDate: "2026-08-11T16:00:00+02:00",
+  weddingDate: "2026-08-11T16:00:00+02:00",
   weekday: "E enjte",
-  displayDate: "11 qershor",
+  displayDate: "11 gusht",
   displayTime: "Nga ora 17:00",
   venue: "Villa Marbella",
   address: "Hapeni lokacionin në Google Maps",
