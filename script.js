@@ -1,7 +1,7 @@
 const eventDetails = {
-  shortTitle: "Hana",
+  shortTitle: "Ana",
   kicker: "Jeni të ftuara në",
-  title: "Hana's Bride to Be Party",
+  title: "Ana's Bride to Be Party",
   couple: "",
   intro:
     "Një pasdite e ëmbël me plot kujtime të bukura.",
